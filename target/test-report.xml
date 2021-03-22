@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.424177">
+<testcase classname="Authentication" name="with correct username and wrong password" time="12.424177">
+<system-out><![CDATA[Given I visit the-internet.herokuapp.com/login..............................passed
+When I enter user in the user name correct..................................passed
+And I enter user in the password field......................................passed
+And I press the login button................................................passed
+Then I should see the Your username is invalid!.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

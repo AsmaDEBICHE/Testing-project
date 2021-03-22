@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 135000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefinitions.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "with correct username and wrong password",
+        "description": "",
+        "id": "authentication;with-correct-username-and-wrong-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10345714800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I visit the-internet.herokuapp.com/login",
+            "match": {
+              "location": "MyStepDefinitions.i_visit_httptheinternetherokuappcomlogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1422058000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter user in the user name correct",
+            "match": {
+              "location": "MyStepDefinitions.i_enter_user_in_the_user_name_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108272000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter user in the password field",
+            "match": {
+              "location": "MyStepDefinitions.i_enter_user_in_the_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532776900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press the login button",
+            "match": {
+              "location": "MyStepDefinitions.i_press_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15220600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the Your username is invalid!",
+            "match": {
+              "location": "MyStepDefinitions.i_should_see_the_your_username_is_invalid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Authentication",
+    "description": "",
+    "id": "authentication",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
